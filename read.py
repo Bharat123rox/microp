@@ -234,13 +234,3 @@ class InclinationFetcher:
 
 
 #########################################################
-
-for i in range(0, 1000000):
-  time.sleep(0.01)
-  print('x: ', get_inclination_using_acc('x'), ' y: ', get_inclination_using_acc('y'), ' z: ', get_inclination_using_acc('z'))
-
-#fetcher = InclinationFetcher()
-#fetcher.start()
-#for i in range(0, 100000000):
-#  print(fetcher.get_inclination())
-#fetcher.stop()
